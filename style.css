@@ -1,0 +1,640 @@
+header{
+    /* background: linear-gradient(to right bottom, #e07c79, #30b2e1); */
+    background: linear-gradient(to right bottom, #f36d08a3, #efde27e2);
+    height: 140vh; 
+    clip-path: polygon(0 0, 100% 0, 85% 50%, 0 35%);
+   
+}
+.new{
+    /* background: linear-gradient(to right bottom, #e07c79, #30b2e1); */
+    background: linear-gradient(to right bottom, #f36d08a3, #efde27e2);
+    height: 80vh; 
+    width: 80vh;
+   
+    /*clip-path: polygon(50% 0%, 20% 50%, 50% 100%, 0% 50%);*/
+    clip-path: polygon(50% 0%, 40% 50%, 50% 100%, 0% 50%)
+    
+    /*clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);*/
+    margin-top: -450px;
+display: flex;
+  
+  
+}
+.new2{
+    /* background: linear-gradient(to right bottom, #e07c79, #30b2e1); */
+    background: linear-gradient(to right bottom, #f36d08a3, #efde27e2);
+    height: 80vh; 
+    width: 80vh;
+   
+    /*clip-path: polygon(50% 0%, 20% 50%, 50% 100%, 0% 50%);*/
+    
+    clip-path: polygon(50% 0%, 80% 0%, 0% 80%, 0% 100%);
+    margin-top: -633px;
+display: flex;
+float: right;
+margin-right:-60px; 
+  
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    padding: 30px 40px 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+}
+.second
+{
+    padding: 30px 40px 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search{
+    margin-left: 200px;
+    border: none;
+}
+.signUp{
+    margin-left: 200px;
+    text-decoration: none;
+}
+.signIn{
+    margin-left: 30px;
+}
+.btn:hover{
+    color: #000;
+    background-color: rgba(190, 178, 178, 0.784);
+}
+.input{
+    width: 400px;
+    height: 20px;
+    color: #000;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+.item{
+    list-style-type: none;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.item:hover{
+    color: rgba(255, 255, 255, 0.534);
+}
+.btn{
+    color: #fff;
+    background-color: rgba(211, 194, 201, 0.334);
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.title{
+    position: absolute;
+    z-index: 1;
+    top: 230px;
+    left: 80px;
+    
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 0px;
+    color: rgb(9, 151, 66);
+}
+.title1{
+    position: absolute;
+    z-index: 1;
+    top: 230px;
+    left: 80px;
+    color: rgba(2, 2, 2, 0.71);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 500px;
+    margin-top: 40px;
+    color: rgb(247, 8, 8);
+}
+
+.nav-item{
+    display: none;
+    z-index: 20;
+}
+.nav-item, .na{
+    z-index: 3;
+}
+.course-list:hover > .nav-item {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 800px;
+    height: 300px;
+    z-index: 2;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -100px;
+    padding-top: 20px;
+}
+.nav-item li{
+    width: 150px;
+}
+.nav-item li a{
+    text-decoration: none;
+}
+.course-list:hover .courses{
+    background-color: #fff;
+    color: #000;
+}
+    
+
+.learntag{
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    right: 50px;
+    top: 850px;
+    float: right;
+}
+
+
+.signboard {
+	width: 1000px;
+	height: 725px;
+	position: relative;
+	animation: swinging 1.5s ease-in-out infinite alternate;
+  transform-origin: 200px 13px;
+  margin-top: -650px;
+  margin-left: 500px;
+ 
+  
+}
+
+.sign {
+    margin-left: -300px;
+	width: 100%;
+	height: 650px;
+	background:#bce0a3;
+	border-radius: 15px;
+	position: absolute;
+	bottom: 0;
+	font-size: 28px;
+	
+	
+	font-weight: bold;
+	text-align: center;
+	
+	
+           
+}
+
+.text3{
+    padding-top: 60px;
+    color: rgb(81, 27, 143);
+    
+ 
+    text-align: center;
+}
+.strings {
+	width: 150px;
+	height: 150px;
+	border: 5px solid rgb(10, 10, 10);
+	position: absolute;
+	border-right: none;
+	border-bottom: none;
+	transform: rotate(45deg);
+	top: 38px;
+	left: 122px;
+  
+}
+
+.pin {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	position: absolute;
+}
+
+
+
+.pin.left {
+	left: 80px;
+}
+
+.pin.right {
+	right: 80px;
+}
+
+@keyframes swinging {
+	from {
+		transform: rotate(10deg);
+	}
+
+	to {
+		transform: rotate(-10deg);
+	}
+}
+.teachers1{
+    padding-bottom: 100px;
+    width: 900px;
+    height: 650px;
+}
+
+.nav-item{
+    display: none;
+    z-index: 20;
+}
+.nav-item, .na{
+    z-index: 3;
+}
+.course-list:hover > .nav-item {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 800px;
+    height: 300px;
+    z-index: 2;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -100px;
+    padding-top: 20px;
+}
+.nav-item li{
+    width: 150px;
+}
+.nav-item li a{
+    text-decoration: none;
+}
+.course-list:hover .courses{
+    background-color: #fff;
+    color: #000;
+}
+.side-big{
+    position: absolute;
+    top: 2585px;
+    width: 300px;
+    height: 150px;
+    background-color: #7a73ff;
+    clip-path: polygon(0 50%, 100% 15%, 100% 65%, 0 100%);
+}
+.side-small{
+    position: absolute;
+    top: 2585px;
+    width: 170px;
+    height: 120px;
+    background-color: #80eaff;
+    left: 50px;
+    clip-path: polygon(0 33%, 100% 8%, 100% 58%, 0 83%);
+    mix-blend-mode: multiply;
+}
+
+
+
+.programs{
+    z-index: -1;
+    margin-top: 50px;
+    height: 950px;
+    background-color: #F6F9FC;
+}
+.main-header{
+    color: #3D6AFF;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.small-header{
+    color: #3D6AFF;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.programs p{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(40, 37, 37);
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.option{
+    margin: 40px;
+    background-color: #0A2540;
+    padding: 10px 25px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    font-weight: 700;
+}
+.option:hover{
+    background-color: #7A73FF;
+    color: #fff;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.card{
+    box-shadow: 1px 1px 15px rgb(166, 159, 159);
+    width: 350px;
+    height: 370px;
+}
+.card img{
+    padding: 20px 20px 10px 20px;
+    width: 350px;
+    height: auto;
+}
+.text{
+    text-align: left;
+    margin: 10px 30px 30px 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #3D6AFF;
+}
+.card-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: flex-start;
+}
+.left p{
+    float: left;
+    font-size: 16px;
+    color: rgba(103, 85, 85, 0.804);
+}
+.right button{
+    float: right;
+    color: rgb(245, 21, 21);
+    background-color: rgba(140, 134, 230, 0.279);
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.team{
+    background-color: #edac07;
+    z-index: -1;
+    height: 1250px;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middle{
+    margin: 0px 150px 0px 150px;
+    border-left: 1px solid #dfe2e5;
+    border-right: 1px solid #dfe2e5;
+    height: 600px;
+}
+.companies{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.companies h1{
+    color: #3D6AFF;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 330px;
+    margin-left: 90px;
+    margin-right: 90px;
+    justify-content: space-around;
+    align-items: center;
+}
+.team h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.border{
+    height: 1200px;
+    width: 1221px;
+    position: absolute;
+    border-left: 1px solid #dfe2e51b;
+    border-right: 1px solid #dfe2e51b;
+}
+.cards-img{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.card-img{
+    background-color: rgba(255, 255, 255, 0.211);
+    width: 350px;
+    height: 430px;
+}
+.card-img img{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 230px;
+    height: auto;
+    background-color: rgba(208, 192, 192, 0.37);
+    border-radius: 50%;
+}
+.text-2{
+    text-align: center;
+    margin: 10px 30px 30px 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+.card-bottom-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.up h4{
+    font-size: 20px;
+    color: rgb(4, 255, 17);
+}
+.down a{
+    text-decoration: none;
+    color: #fff;
+}
+.down a img{
+    width: 35px;
+    height: auto;
+    background: transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+}
+
+.institutions h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-top: 400px;
+    margin-bottom: 80px;
+}
+.partner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 1000px;
+    margin-top: -350px;
+    margin-left: 149px;
+    margin-right: 149px;
+    border-left: 1px solid #dfe2e5;
+    border-right: 1px solid #dfe2e5;
+}
+.images-inst{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.image-inst{
+    width: 150px;
+    height: auto;
+}
+footer{
+    margin-top: -300px;
+    clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+    height: 750px;
+    background-color: #F6F9FC;
+}
+.footer{
+    padding-top: 300px;
+    padding-left: 170px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 149px;
+    margin-right: 149px;
+    gap: 20px;
+    border-left: 1px solid #dfe2e5;
+    border-right: 1px solid #dfe2e5;
+    height: 750px;
+}
+.icons img{
+    width: 100px;
+    height: auto;
+}
+.footer-first,
+.footer-second,
+.footer-third
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.footer-first,
+.footer-second,
+.footer-third{
+    width: 33%;
+}
+.info{
+    margin-top: 20px;
+}
+.address,
+.email{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.iso img{
+    margin-top: 100px;
+    width: 80px;
+    height: auto;
+}
+.footer-second h1,
+.footer-third h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.footer-second{
+    padding-left: 60px;
+}
+.footer-third{
+    padding-top: 7px;
+}
+.links-1,
+.links-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+.links-1 a,
+.links-2 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #000;
+}
+.links-1 a:hover,
+.links-2 a:hover{
+    text-decoration: underline;
+}
